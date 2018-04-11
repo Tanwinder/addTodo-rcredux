@@ -4,7 +4,7 @@ import Todo from './Todo'
 import DeleteTodo from './deleteTodo'
 
 const TodoList = ({ todos, toggleTodo, deleteTodo }) => (
-  <ul>
+  <ul className="item-container">
     {todos.map(todo =>
       <li className="item">
         <Todo

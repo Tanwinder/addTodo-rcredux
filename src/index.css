@@ -8,12 +8,15 @@ body {
 }
 button {
     outline: none;
+    cursor: pointer;
 }
 .app {
     border: 1px solid gray;
     width: 35em;
     margin: 2em auto;
-    padding: 2em;
+    padding: 1em;
+    box-shadow: 2px 2px 2px gray;
+    background-color: lightblue;
 
 }
 .addtodo form {
@@ -28,6 +31,7 @@ button {
     font-size: 1em;
     flex-grow: 2;
     outline: none;
+    box-shadow: 2px 2px 2px gray;
 }
 .addtodo button {
     padding: 1em;
@@ -36,11 +40,15 @@ button {
     border-radius: 4px;
     font-size: 1em;
     outline: none;
+    box-shadow: 2px 2px 2px gray;
+}
+.item-container {
+    margin: 1em 0;
 }
 .item {
     list-style-type: none;
     padding: 10px 15px;
-    background: rgba(213, 216, 220, 0.5);
+    background: lightyellow;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(213, 216, 220, 1);
@@ -56,5 +64,21 @@ button {
     padding: 3px;
     border-radius: 5px;
     border: 1px solid rgba(213, 216, 220, 1);
-    background: rgba(213, 216, 220, 0.1);
+    background: white;
+}
+.footer {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+.footer span, .footer button {
+    padding: 12px;
+    border-radius: 4px;
+}
+.footer button {
+    background-color: lightyellow;
+    margin: 0;
 }
