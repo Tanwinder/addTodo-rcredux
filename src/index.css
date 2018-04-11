@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+}
+button {
+    outline: none;
+}
+.app {
+    border: 1px solid gray;
+    width: 35em;
+    margin: 2em auto;
+    padding: 2em;
+
+}
+.addtodo form {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.addtodo input {
+    padding: 1em;
+    border: 1px solid rgba(213, 216, 220, 1)  ;
+    border-radius: 4px;
+    font-size: 1em;
+    flex-grow: 2;
+    outline: none;
+}
+.addtodo button {
+    padding: 1em;
+    border: 1px solid rgba(213, 216, 220, 1);
+    flex-grow: 1;
+    border-radius: 4px;
+    font-size: 1em;
+    outline: none;
+}
+.item {
+    list-style-type: none;
+    padding: 10px 15px;
+    background: rgba(213, 216, 220, 0.5);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(213, 216, 220, 1);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+.item span {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px;
+}
+.item button {
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgba(213, 216, 220, 1);
+    background: rgba(213, 216, 220, 0.1);
+}
